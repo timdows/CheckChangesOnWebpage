@@ -5,7 +5,7 @@
 ```sh
 git clone https://github.com/timdows/CheckChangesOnWebpage.git
 cd src
-// change details in WebsiteChecker/WebsiteChecker.cs
+# change details in WebsiteChecker/WebsiteChecker.cs
 dotnet restore
 dotnet run
 ```
