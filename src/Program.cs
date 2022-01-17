@@ -1,4 +1,4 @@
-﻿using CheckChangesOnWebpage.WebsiteCheker;
+﻿using CheckChangesOnWebpage.WebsiteChecker;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
@@ -20,7 +20,7 @@ namespace CheckChangesOnWebpage
 		{
 			return Host.CreateDefaultBuilder(args)
 				.ConfigureServices((_, services) =>
-					services.AddTransient<IWebsiteChecker, WebsiteChecker>());
+					services.AddTransient<IWebsiteChecker, WebsiteChecker.WebsiteChecker>());
 		}
 
 		public static async Task DoWork(IServiceProvider services)

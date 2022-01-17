@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace CheckChangesOnWebpage.WebsiteCheker
+namespace CheckChangesOnWebpage.WebsiteChecker
 {
 	public interface IWebsiteChecker
 	{

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace CheckChangesOnWebpage.WebsiteCheker
+namespace CheckChangesOnWebpage.WebsiteChecker
 {
 	public class WebsiteChecker : IWebsiteChecker
 	{
